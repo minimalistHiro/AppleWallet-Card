@@ -1,0 +1,6 @@
+node_modules/
+.env
+certs/*.p12
+output/*.pkpass
+.pass-build/
+.DS_Store

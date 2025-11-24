@@ -1,0 +1,32 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.pma-three.vercel.app",
+  "teamIdentifier": "<YOUR_TEAM_ID>",
+  "organizationName": "Hiroki Kaneko",
+  "description": "Digital Business Card",
+  "serialNumber": "0001",
+  "backgroundColor": "rgb(255,255,255)",
+  "foregroundColor": "rgb(0,0,0)",
+  "logoText": "Hiroki Kaneko",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "name",
+        "label": "Name",
+        "value": "金子 広樹"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "role",
+        "label": "Role",
+        "value": "カフェオーナー / アプリ開発エンジニア"
+      }
+    ]
+  },
+  "barcode": {
+    "format": "PKBarcodeFormatQR",
+    "message": "https://minimalist-hiro-app.com/",
+    "messageEncoding": "utf-8"
+  }
+}
