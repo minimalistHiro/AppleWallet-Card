@@ -38,6 +38,14 @@ async function main() {
       },
     });
 
+    // QRコードを設定（Wallet に表示される部分）
+pass.setBarcodes({
+  message: "https://minimalist-hiro-app.com/",
+  format: "PKBarcodeFormatQR",
+  messageEncoding: "utf-8",
+});
+
+
     await appendAssets(pass);
     await writePass(pass);
 
