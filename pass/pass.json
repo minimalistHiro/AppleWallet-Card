@@ -12,7 +12,7 @@
   "barcode": {
     "format": "PKBarcodeFormatQR",
     "message": "https://minimalist-hiro-app.com/",
-    "messageEncoding": "iso-8859-1"
+    "messageEncoding": "utf-8"
   },
 
   "generic": {
@@ -28,6 +28,18 @@
         "key": "role",
         "label": "Role",
         "value": "カフェオーナー / アプリ開発エンジニア"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "email",
+        "label": "Email",
+        "value": "h.kaneko.baseball@icloud.com"
+      },
+      {
+        "key": "phone",
+        "label": "Phone",
+        "value": "080-6050-7194"
       }
     ]
   }
